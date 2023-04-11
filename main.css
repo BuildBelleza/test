@@ -1,0 +1,165 @@
+/*add border around each name looking like cards in 4 rows of 5*/
+body {
+  background-image: url("https://live.staticflickr.com/3003/2901465997_a8a8eb3b0c_k.jpg");
+  background-repeat: no-repeat;
+  background-color: goldenrod;
+  background-size: cover;
+  text-align: center;
+}
+
+/* .app .card  {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  /* width: 750px; */
+/* } */
+
+/* div.grid.card {
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: blueviolet;
+  background-color: grey;
+  cursor: pointer;
+  flex-basis: 18%;
+  /* min-width: 25px; */
+  /* padding-top: 80px;
+  padding-bottom: 80px; */
+  /* text-align: center; */
+/* } */ 
+/* div#app.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 1050px;
+  height: auto;
+  align-items: center;
+} */
+
+/* div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1050px;
+  height: 1050px;
+  row-gap: 5px;
+  column-gap: 5px;
+  border-style: solid;
+  border-color: blueviolet;
+  background-color: grey;
+} */
+div.activeCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1050px;
+  height: 1050px;
+  row-gap: 5px;
+  column-gap: 5px;
+  border-style: solid;
+  border-color: blueviolet;
+  background-color: grey;
+  /* cursor: pointer; */
+  flex-basis: 18%;
+  align-items: center;
+
+  /* margin: 0 
+  auto; */
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 750px;
+}
+
+.app div {
+  border-style: solid;
+  /* border-color: blueviolet; */
+  background-color: grey;
+  cursor: pointer;
+  /* flex-basis: 18%; */
+  /* min-width: 25px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  /* align-items: center; */
+}
+
+div.card {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  gap: 4px;
+  min-width: 200px;
+  height: 200px;
+  cursor: pointer;
+
+  /* width: 750px; */
+}
+/* .card.active {
+  background-color: red;
+} */
+
+/* .app div #app:hover {
+  background-color: rgb(254 254 254 / 31%);
+} */
+/* .appCard.appCard1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 150px;
+  /* min-height: 150px; */
+  /* border-style: solid;
+  border-width: 5pt;
+  border-color: rgb(235, 136, 8);
+  background-color: rgb (0, 0, 0, 25%);
+  cursor: pointer;
+  padding: 15px;
+  text-align: center;
+  flex-basis: 25%; */
+/* } */ 
+/* #appCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-width: 5pt;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255, 25%);
+  cursor: pointer;
+  padding: 6px;
+  text-align: center;
+  flex-basis: 25%;
+} */
+
+/* .card.active {
+  background-color: red;
+} */
+
+h1,
+h3 {
+  display: inline-block;
+  text-align: center;
+  color: aliceblue;
+}
+
+button {
+  vertical-align: bottom;
+  text-align: center;
+  background-color: rgb(254, 254, 254);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* div {
+  text-align: center;
+} */
